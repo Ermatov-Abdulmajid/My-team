@@ -864,6 +864,8 @@ select:-webkit-autofill:focus {
     
     .results__inner {
         margin-bottom: 84px;
+        width: 100%;
+        max-width: 695px;
     }
     
     .results__text {
@@ -1154,7 +1156,8 @@ select:-webkit-autofill:focus {
     }
     
     .feature__item-info {
-        width: 327px;
+        width: 100%;
+        max-width: 327px;
     }
 }
 
