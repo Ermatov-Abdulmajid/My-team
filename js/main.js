@@ -33,22 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       btnOpen.addEventListener("click", toggleVisibility);
       btnClose.addEventListener("click", toggleVisibility);
-    } else {
-      console.error(
-        "Elements not found or incorrect number of directors__item-inner elements."
-      );
-      if (!btnOpen)
-        console.error(
-          "Element with ID 'btn-open' not found in directors__item."
-        );
-      if (!btnClose)
-        console.error(
-          "Element with ID 'btn-close' not found in directors__item."
-        );
-      if (innerItems.length !== 2)
-        console.error(
-          "Incorrect number of directors__item-inner elements found in directors__item."
-        );
     }
   });
 
